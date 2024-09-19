@@ -1,0 +1,51 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://img.freepik.com/free-photo/dark-room-with-wooden-floor_1048-2481.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 99vh;
+}
+h2{
+    color: black;
+    background-color: rgba(240, 248, 255, 0.296);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parts{
+    display: flex;
+    flex-direction: row;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px
+}
+p{
+    font-size: x-large;
+    color: black;
+    background-color: rgba(240, 248, 255, 0.296);
+
+}
+h1{
+    border-bottom: 4px solid white;
+    margin-bottom: 40px;
+    color: black;
+    background-color: rgba(240, 248, 255, 0.296);
+}
+table{
+    width: 90%;
+    table-layout: fixed;
+    padding-bottom: 40px;
+}
+td, th, tr{
+    align-items: center;
+    border-bottom: 1px solid white;
+    text-align: justify;
+}
